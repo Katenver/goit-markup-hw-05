@@ -30,7 +30,7 @@
         <nav class="header-nav">
           <ul class="nav-list">
             <li class="header-nav-item">
-              <a class="nav-item nav-current-link" href="">Студия</a>
+              <a class=" nav-current-link" href="">Студия</a>
             </li>
             <li class="header-nav-item">
               <a class="nav-item" href="portfolio.html">Портфолио</a>
@@ -71,7 +71,7 @@
             для вашего бизнеса
           </h1>
 
-          <button class="hero-btn" type="button">Заказать услугу</button>
+          <button class="hero-btn" type="button" data-modal-open>Заказать услугу</button>
         </section>
       </div>
       <!--Наши достоинства-->
@@ -435,5 +435,11 @@
       </div>
       </section>
     </footer>
+    <!-- Modal window -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" data-modal-close></button>
+      </div>
+      <script src="./js/modal.js"></script>
   </body>
 </html>
