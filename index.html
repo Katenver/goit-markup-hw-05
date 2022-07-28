@@ -136,14 +136,20 @@
           <h2 class="scope-title">Чем мы занимаемся</h2>
           <ul class="scope-list">
             <li class="scope-item">
+                        
               <img width="370" src="images/img_1.jpg" alt="Программирование" />
+              <div class="scope-item-text">
+                <h3 class="scope-list-title">Десктопні додатки</h3>
+              </div>
             </li>
             <li class="scope-item">
               <img
                 width="370"
                 src="images/img_2.jpg"
-                alt="Использование новейших технологий"
-              />
+                alt="Использование новейших технологий"/>
+                <div class="scope-item-text">
+                  <h3 class="scope-list-title">Мобільні додатки</h3>
+                </div>
             </li>
             <li class="scope-item">
               <img
@@ -151,6 +157,9 @@
                 src="images/img_3.jpg"
                 alt="Спектр графического дизайна"
               />
+              <div class="scope-item-text">
+                <h3 class="scope-list-title">Дизайнерські&nbspрішення</h3>
+              </div>
             </li>
           </ul>
         </div>
@@ -438,7 +447,12 @@
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn" data-modal-close></button>
+        <button class="modal-btn" data-modal-close>
+          <svg class="modal-btn-icon" width="18" height="18">
+          <use href="./images/icons.svg.svg#icon-close"></use>
+        </svg>
+        </button>
+      </div>
       </div>
       <script src="./js/modal.js"></script>
   </body>
